@@ -15,6 +15,7 @@ nav a {
 }
 h1 {
     color: steelblue;
+    padding: 20px
 }
 main img {
     width: 150px;
@@ -24,14 +25,14 @@ main img {
     box-shadow: 0 0 30px gray;
     float: right;
 }
-p {
-    padding: 0;
+main p {
+    padding: 20px;
 }
 main {
     max-width: 800px;
 }
 aside {
-    width: 200px;
+    width: 300px;
     position: relative;
 }
 aside img {
@@ -60,6 +61,5 @@ footer {
     border: 1px solid rgba (0,0,0,.1);
     padding: 1rem;
     background-color: #2a1282;
-    color: #00faa7;
-    
+    color: #00faa7;  
 }
