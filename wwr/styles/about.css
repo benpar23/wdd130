@@ -34,18 +34,18 @@ p {
     width: 100%;
     height: auto;
 }
+.overlay img {
+    float: right;
+    width: 300px;
+    height: auto;
+    opacity: 1;
+}
 .overlay {
     position: absolute;
     bottom: 30%;
     left: 20%;
     background-color: white;
     opacity: 0.6;
-}
-.overlay img {
-    float: right;
-    width: 300px;
-    height: auto;
-    opacity: 1;
 }
 .heading {
     position: absolute;
