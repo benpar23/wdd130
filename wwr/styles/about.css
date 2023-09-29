@@ -39,6 +39,6 @@ p {
 }
 .heading {
     position: absolute;
-    top: 50%;
+    bottom: 70%;
     left: 50%;
 }
