@@ -39,6 +39,8 @@ p {
 }
 .heading {
     position: absolute;
-    bottom: 70%;
-    left: 50%;
+    bottom: 80%;
+    left: 40%;
+    background-color: white;
+    opacity: 0.7;
 }
