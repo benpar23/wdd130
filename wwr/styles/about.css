@@ -38,19 +38,18 @@ p {
     float: right;
     width: 300px;
     height: auto;
-    opacity: 1;
 }
 .overlay {
     position: absolute;
     bottom: 30%;
-    left: 20%;
-    background-color: white;
-    opacity: 0.6;
+    left: 25%;
+    width: 900px;
+    height: auto;
+    background-color: rgba(255,255,255,0.8);
 }
 .heading {
     position: absolute;
     bottom: 80%;
     left: 40%;
-    background-color: white;
-    opacity: 0.7;
+    background-color: rgba(255,255,255,0.6);
 }
