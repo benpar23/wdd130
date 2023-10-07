@@ -37,8 +37,10 @@ nav {
     text-align: right;
 }
 figure {
+    display: flex;
+    flex-flow: column;
     max-width: 200px;
-    max-height: auto;
+    padding: 2px;
 }
 
 
@@ -101,5 +103,9 @@ figure {
     color: var(--secondary-color);
 }
 .adventures {
-    display: flex;
+    display: grid;
+    grid-template-rows: 10% 30%;
+}
+.adventures h2 {
+    justify-content: center;
 }
