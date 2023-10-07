@@ -36,6 +36,10 @@ header {
 nav {
     text-align: right;
 }
+figure {
+    max-width: 200px;
+    max-height: auto;
+}
 
 
 /* Class Selectors */
@@ -97,13 +101,5 @@ nav {
     color: var(--secondary-color);
 }
 .adventures {
-    display: grid;
-    grid-template-rows: 20% 80%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    max-width: 100%;
-}
-.adventures img {
-    display: block;
-    padding: 3px;
-    width: 250px;
+    display: flex;
 }
