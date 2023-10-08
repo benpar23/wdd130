@@ -39,9 +39,24 @@ nav {
 figure {
     display: flex;
     flex-flow: column;
-    /* max-width: 100%; */
     grid-row-start: 2;
     text-align: center;
+}
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 100px;
+}
+footer div {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+a img {
+    width: 70px;
+}
+footer p {
+    justify-content: center;
 }
 
 
