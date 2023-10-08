@@ -39,8 +39,9 @@ nav {
 figure {
     display: flex;
     flex-flow: column;
-    max-width: 200px;
-    padding: 2px;
+    /* max-width: 100%; */
+    grid-row-start: 2;
+    text-align: center;
 }
 
 
@@ -93,21 +94,35 @@ figure {
 }
 .history {
     display: grid;
-    grid-template-rows: 30% 70%;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    padding: 50px;
 }
 .history h2 {
     justify-items: center;
+    grid-column-start: 2;
+}
+.history p {
+    grid-row-start: 2;
+}
+.history img {
+    grid-column-start: 2;
+    width: 200px;
 }
 .main {
     color: var(--secondary-color);
 }
 .adventures {
     display: grid;
-    grid-template-rows: 10% 30%;
-    justify-items: left;
-    align-content: center;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 .adventures h2 {
     justify-content: center;
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+.second {
+    grid-column-start: 3;
 }
