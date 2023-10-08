@@ -51,12 +51,14 @@ footer div {
     display: flex;
     justify-content: flex-end;
     padding-right: 100px;
+    padding-left: 300px;
 }
 a img {
-    width: 70px;
+    width: 50px;
+    padding: 5px;
 }
 footer p {
-    justify-content: center;
+    text-align: right;
 }
 
 
