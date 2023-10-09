@@ -50,8 +50,8 @@ footer {
 footer div {
     display: flex;
     justify-content: flex-end;
-    padding-right: 100px;
-    padding-left: 300px;
+    padding-right: 80px;
+    padding-left: 280px;
 }
 a img {
     width: 50px;
@@ -126,6 +126,7 @@ footer p {
 .history img {
     grid-column-start: 2;
     width: 200px;
+    height: auto;
 }
 .main {
     color: var(--secondary-color);
