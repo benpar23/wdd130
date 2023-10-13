@@ -35,6 +35,21 @@ header {
 }
 nav {
     text-align: right;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0.5px solid black;
+    border-right: 0.5px solid black;
 }
 figure {
     display: flex;
@@ -90,24 +105,6 @@ footer p {
     bottom: 80%;
     left: 40%;
     background-color: rgba(0, 0, 0, 0.6);
-}
-.navigation {
-    display: flex;
-    list-style: none;
-}
-.navigation a {
-    display: block;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    background-color: var(--nav-background-color);
-    color: var(--nav-link-color);
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    border-left: 0.5px solid black;
-    border-right: 0.5px solid black;
 }
 .history {
     display: grid;
