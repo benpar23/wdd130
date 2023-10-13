@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <meta name="description" content="Take a quiz on how well you know CSS and HTML">
+    <meta name="author" content="Ben Parada">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>HTML/CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <label for="q1">What does HTML stand for?</label>
+            <input type="text" id="q1" name="q1">
+            <label for="q2">Explain some of the differences between CSS and HTML.</label>
+            <textarea id="q2" name="q2" rows="4" placeholder="Answer in detail"></textarea>
+            <label for="q3">What comes first in the Body section of HTML?</label>
+            <select id="q3" name="q3">
+                <option value="" selected disabled>Choose one...</option>
+                <option value="footer">Footer</option>
+                <option value="header">Header</option>
+                <option value="main">Main</option>
+                <option value="head">Head</option>
+            </select>
+            <label for="q4">If a div element has a margin of 10px, padding of 10px, and a border of 2px, what is the total width?</label>
+            <input type="number" id="q4" name="q4">
+            <button type="submit">Submit Form</button>
+        </form>
+    </main>
+    <footer>
+
+    </footer>  
+</body>
+</html>
