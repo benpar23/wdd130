@@ -141,3 +141,8 @@ footer p {
 .second {
     grid-column-start: 3;
 }
+.employees {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
