@@ -154,3 +154,14 @@ form {
     grid-template-rows: 0.5fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+.address {
+    display: grid;
+}
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+}
+.map {
+    grid-column-start: 3;
+}
