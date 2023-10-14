@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact White Water Rafting</title>
     <meta name="description" content="This page is for relevant contact information for our business.">
     <meta name="author" content="Ben Parada">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -19,32 +19,36 @@
         </nav>
     </header>
     <main>
+        <h1 class="contact_heading">Contact Us</h1>
         <div>
-            <h2>Contact Us</h2>
             <form>
-                <div>
+                <div class="contact_1_name">
                     <label for="fullname">Full Name</label>
                     <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="contact_1_email">
                     <label for="email">Email Address</label>
                     <input type="text" id="email" name="email">
                 </div>
-                <div>    
+                <div class="contact_2">    
                     <label for="general">General Inquiry</label>
-                    <input type="radio" id="general" name="general">
+                    <input type="radio" id="general" name="type" value="general">
                     <label for="reservation">Reservation Question</label>
-                    <input type="radio" id="reservation" name="reservation">
+                    <input type="radio" id="reservation" name="type" value="reservation">
                     <label for="website">Website Suggestion</label>
-                    <input type="radio" id="website" name="website">
+                    <input type="radio" id="website" name="type" value="website">
                 </div>
-                <div>
+                <div class="contact_3">
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="4" placeholder="Please let us know in detail how we can help"></textarea>
                 </div>
-                <div>
+                <div class="contact_4">
                     <input type="checkbox" id="subscription" name="subscription">
                     <label for="subscription">Please sign me up for the monthly newsletter</label>
                 </div>
-                <button type="submit">Submit Form</button>
+                <div class="button">
+                    <button type="submit">Submit Form</button>
+                </div>
             </form>
         </div>
         <div class="employees">
@@ -62,7 +66,7 @@
                 <figcaption>Emma Price, Trip Manager</figcaption>
             </figure>
         </div>
-        <section class="contact-info">
+        <section class="contact_info">
             <div class="address">
                 <h2>Contact Information</h2>
                 <h3>Address</h3>

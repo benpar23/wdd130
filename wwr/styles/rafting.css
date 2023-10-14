@@ -83,6 +83,23 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr 2fr 0.5fr 1fr;
+}
+input, textarea {
+    grid-column: 1 / span 2;
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+}
+button:hover {
+    background-color: darkgreen;
 }
 
 /* Class Selectors */
@@ -154,14 +171,52 @@ form {
     grid-template-rows: 0.5fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
+.employees h2 {
+    text-align: center;
+    grid-column: 1 / span 3;
+    align-self: end;
+}
 .address {
     display: grid;
 }
-.contact-info {
+.contact_info {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 2rem;
 }
 .map {
     grid-column-start: 3;
+}
+.contact_heading {
+    text-align: center;
+    color: var(--primary-color);
+}
+.contact_1_name {
+    grid-column: 1;
+    display: grid;
+    padding: 1rem;
+}
+.contact_1_email {
+    grid-column: 2;
+    display: grid;
+    padding: 1rem;
+}
+.contact_2 {
+    grid-column-start: 1;
+    padding: 1rem;
+    align-items: right;
+}
+.contact_3 {
+    grid-column: 1 / span 2;
+    display: grid;
+    padding: 1rem;
+}
+.contact_4 {
+    padding: 1rem;
+}
+.button {
+    display: flex;
+    grid-row-start: 5;
+    grid-column: 1 / span 2;
+    justify-content: center;
 }
