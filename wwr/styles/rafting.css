@@ -59,7 +59,7 @@ figure {
 }
 footer {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-top: 100px;
 }
 footer div {
@@ -68,11 +68,15 @@ footer div {
     padding-right: 80px;
     padding-left: 280px;
 }
+footer a {
+    text-align:left;
+}
 a img {
     width: 50px;
     padding: 5px;
 }
 footer p {
+    grid-column-start: 2;
     text-align: right;
 }
 form {
