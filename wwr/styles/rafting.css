@@ -69,7 +69,8 @@ footer div {
     padding-left: 280px;
 }
 footer a {
-    text-align:left;
+    text-align: left;
+    align-self: center;
 }
 a img {
     width: 50px;
