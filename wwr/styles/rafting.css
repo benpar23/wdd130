@@ -85,21 +85,28 @@ form {
     background-color: #eee;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 0.5fr 2fr 0.5fr 1fr;
+    font-family: var(--paragraph-font);
 }
 input, textarea {
     grid-column: 1 / span 2;
 }
 button {
     margin: 1rem;
-    background-color: navy;
+    background-color: var(--primary-color);
     color: #fff;
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem;
     font-size: 1.1rem;
+    font-family: var(--paragraph-font);
 }
 button:hover {
-    background-color: darkgreen;
+    background-color: var(--accent1-color);
+}
+figcaption {
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
+    padding: 1rem;
 }
 
 /* Class Selectors */
