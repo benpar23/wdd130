@@ -126,7 +126,7 @@ th, td {
 }
 
 th {
-    background-color: #007BFF;
+    background-color: var(--primary-color);
     color: #fff;
 }
 
@@ -261,7 +261,7 @@ th {
     border-radius: 5px;
 }
 .cta {
-    background-color: #007BFF;
+    background-color: var(--primary-color);
     color: #fff;
     padding: 10px;
     text-align: center;
