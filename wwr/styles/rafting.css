@@ -113,6 +113,22 @@ figcaption {
     font-family: var(--paragraph-font);
     padding: 1rem;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
 
 /* Class Selectors */
 
@@ -231,4 +247,27 @@ figcaption {
     grid-row-start: 5;
     grid-column: 1 / span 2;
     justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.trip {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.cta {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
 }
