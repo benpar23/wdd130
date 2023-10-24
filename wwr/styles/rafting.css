@@ -104,6 +104,7 @@ button {
     padding: 0.75rem;
     font-size: 1.1rem;
     font-family: var(--paragraph-font);
+    text-decoration: none;
 }
 button:hover {
     background-color: var(--accent1-color);
@@ -306,5 +307,41 @@ th {
 }
 .home {
     color: var(--secondary-color);
+    left: 50%;
+    transform: translateX(29%);
+    bottom: 30%;
+}
+.cta_home {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    position: absolute;
+    width: 300px;
+    left: 50%;
+    transform: translateX(-60%);
+    top: 100px;                          
+}
+.home_2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     text-align: center;
+    background-color: var(--nav-background-color);
+    border-radius: 15px;
+}
+.home_2 img {
+    max-width: 450px;
+    max-height: auto;
+}
+.block {
+    height: 50px;
 }
