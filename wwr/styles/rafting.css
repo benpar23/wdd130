@@ -339,9 +339,13 @@ th {
 }
 .home {
     color: var(--secondary-color);
-    left: 50%;
-    transform: translateX(29%);
-    bottom: 30%;
+    position: absolute;
+    bottom: 40%;
+    left: 36%;
+    width: 400px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
 }
 .cta_home {
     margin: 1rem;
@@ -356,8 +360,8 @@ th {
     position: absolute;
     width: 300px;
     left: 50%;
-    transform: translateX(-60%);
-    top: 100px;
+    transform: translateX(-50%);
+    bottom: 50px;
     text-align: center;                      
 }
 .cta_home a{
