@@ -118,6 +118,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    font-family: var(--paragraph-font);
 }
 
 th, td {
@@ -288,6 +289,18 @@ th {
     text-decoration: none;
     display: block;
     width: 100%;
+}
+.cta_trips {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    width: 400px;
+    margin: auto;
 }
 .newsletter {
     width: 50%;
