@@ -304,7 +304,7 @@ th {
 }
 .newsletter {
     width: 50%;
-    height: 200px;
+    height: 250px;
     padding: 1rem;
 }
 .newsletter_name {
@@ -378,4 +378,7 @@ th {
     display: flex;
     justify-content: center;
     color: var(--primary-color);
+}
+.cta_header {
+    text-align: center;
 }
