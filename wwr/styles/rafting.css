@@ -254,11 +254,29 @@ th {
     padding: 20px;
 }
 .trip {
-    width: 48%;
+    width: 45%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.trip img {
+    max-width: 600px;
+}
+.big_trip {
+    width: 100%;
     margin-bottom: 20px;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+.big_trip img {
+    width: 100%;
+    height: auto;
 }
 .cta {
     background-color: var(--primary-color);
@@ -342,4 +360,9 @@ th {
 }
 .block {
     height: 50px;
+}
+.trips_header {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
 }
