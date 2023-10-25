@@ -267,6 +267,7 @@ th {
     max-width: 600px;
 }
 .big_trip {
+    position: relative;
     width: 100%;
     margin-bottom: 20px;
     padding: 20px;
@@ -301,6 +302,7 @@ th {
     display: block;
     width: 400px;
     margin: auto;
+    font-family: var(--paragraph-font);
 }
 .newsletter {
     width: 50%;
@@ -355,7 +357,11 @@ th {
     width: 300px;
     left: 50%;
     transform: translateX(-60%);
-    top: 100px;                          
+    top: 100px;
+    text-align: center;                      
+}
+.cta_home a{
+    text-decoration: none;
 }
 .home_2 {
     display: grid;
@@ -380,5 +386,23 @@ th {
     color: var(--primary-color);
 }
 .cta_header {
+    text-align: center;
+}
+.caption {
+    position: absolute;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    position: absolute;
+    width: 300px;
+    right: 1%;
+    top: 9%;
+    text-align: center; 
+}
+.trip_table {
     text-align: center;
 }
